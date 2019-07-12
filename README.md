@@ -24,3 +24,9 @@ Now, you can install the rest of the requirements via pip by running:
 ```
 pip install -r requirements.txt
 ```
+
+### mypy
+python3 comes with annotation which made strong typing possible in python. To help finding bugs earlier, always run type checking first before merging your code
+```
+mypy -p enma_integration_test
+```
